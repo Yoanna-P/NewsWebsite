@@ -1,0 +1,23 @@
+body {
+   margin:0;
+   padding:0;
+   background-color: #f3f3f3;
+}
+
+.navbar {
+   display:flex;
+border: 1px solid black;
+background-color: white;
+}
+
+/* red #c72727
+light grey
+#f3f3f3
+dark grey
+333333
+orang
+#f99500
+lila
+#a66bbf 
+blue
+#389cff*/
