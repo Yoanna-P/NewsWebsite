@@ -7,30 +7,121 @@
    <title>NewsGrid</title>
    <script src="https://kit.fontawesome.com/8b6f2e466e.js" crossorigin="anonymous"></script>
    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Staatliches&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="/css/style.css">
-   <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
    <link rel="shortcut icon" href="favicon.ico?v=2" type="image/x-icon">
 </head>
 
 <body>
-   <nav id="main">
+   <nav id="main-nav">
       <div class="container">
-         <img src="/image_resources/logo.png" alt="logo">
+         <img src="image_resources/logo.png" alt="logo">
          <div class="social">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-youtube"></i>
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-youtube fa-2x"></i>
          </div>
          <ul>
             <li><a class="current" href="index.html">Home</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="about.html">About</a></li>
          </ul>
       </div>
    </nav>
-   <div class="hero"></div>
-   <div class="grid"></div>
-   <div class="footer"></div>
+   <header id="hero">
+      <div class="content">
+         <div class="category category-sports">sports</div>
+         <h1>SOME SPORTS ARTICLE</h1>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est et iusto nulla, officiis dignissimos quis
+            velit explicabo. Culpa, necessitatibus quos. Iusto adipisci repellat non dolore sit ipsam aut nostrum
+            exercitationem.</p>
+         <a href="article.html" class="btn btn-primary">Read More</a>
+      </div>
+   </header>
+   <section id="home-articles">
+      <div class="container">
+         <h2>EDITOR PICKS</h2>
+         <div class="articles-container">
+            <div class="card horizontal1">
+               <img src="image_resources/articles/ent1.jpg" alt="">
+               <div>
+                  <div class="category category-ent">entertainment</div>
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, commodi.</p>
+               </div>
+            </div>
+            <div class="card small1">
+               <div class="category category-sports">sports</div>
+               <h3>Lorem ipsum dolor sit amet.</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, commodi.</p>
+            </div>
+            <div class="card">
+               <img src="image_resources/articles/tech1.jpg" alt="">
+               <div class="category category-tech">technology</div>
+               <h2>Lorem ipsum dolor sit amet.</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, commodi.</p>
+            </div>
+            <div class="card">
+               <div class="category category-sports">sports</div>
+               <h2>Lorem ipsum dolor sit amet.</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, commodi.</p>
+               <img src="image_resources/articles/sports1.jpg" alt="">
+            </div>
+            <div class="card">
+               <img src="image_resources/articles/tech2.jpg" alt="">
+               <div class="category category-tech">technology</div>
+               <h2>Lorem ipsum dolor sit amet.</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, commodi.</p>
+            </div>
+            <div class="card small2">
+               <div class="category category-sports">sports</div>
+               <h2>Lorem ipsum dolor sit amet.</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, commodi.</p>
+            </div>
+            <div class="card horizontal2">
+               <div>
+                  <div class="category category-ent">entertainment</div>
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, commodi.</p>
+               </div>
+               <img src="image_resources/articles/ent2.jpg" alt="">
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <footer>
+         <div class="footer-container">
+            <div>
+               <img src="image_resources/logo_light.png" alt="">
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore repellat eius error odio unde et?
+               </p>
+            </div>
+            <div>
+               <h3>Email</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, nisi.</p>
+               <form>
+                  <input type="email" value="Enter email..">
+                  <button class="btn btn-primary" type="submit">Subscribe</button>
+               </form>
+            </div>
+            <div>
+               <h3>Site links </h3>
+               <ul>
+                  <li>Help&Support</li>
+                  <li>Privacy Policy</li>
+                  <li>About us</li>
+                  <li>Contact</li>
+               </ul>
+            </div>
+            <div>
+               <h2>Join our club</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, aliquid!</p>
+               <button class="btn btn-secondary">Join Now</button>
+            </div>
+            <div class="copyright">copyright &copy; 2020, All Rights Reserved</div>
+         </div>
+   </footer>
 </body>
 
 </html>
